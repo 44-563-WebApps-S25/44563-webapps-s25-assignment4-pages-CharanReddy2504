@@ -1,0 +1,75 @@
+.speech {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+.stage-direction {
+    font-style: italic;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.stage-direction:hover {
+    background-color: #ccc;
+    color: red;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Character colors */
+.hero {
+    color: darkblue;
+}
+
+.margaret {
+    color: darkgreen;
+}
+
+.ursula {
+    color: darkred;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+a {
+    font-size: 18px; /* Adjust the size as needed */
+    color: #0066cc; /* Optional: Set a color */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    font-size: 20px; /* Optional: Make the font larger on hover */
+    color: #ff5733; /* Optional: Change the color on hover */
+}
+
+.name:hover {
+    text-shadow: 2px 2px 8px #ff5733; /* Adjust the shadow color and blur as needed */
+    border: 2px solid #ff5733; /* Optional: Add a border on hover */
+}
